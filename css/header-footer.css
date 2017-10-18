@@ -1,0 +1,233 @@
+.container{
+	max-width:1030px;
+	min-width:320px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin:0 auto;
+}
+body{overflow-x: hidden;}
+header{
+	width: 100%;
+	margin:0 auto;	
+	position: fixed;	
+	top:0; 
+	left: 0;
+	background: #333333;
+	z-index: 999;	
+}
+
+header .head .menu_appear ul li a{font-size:0.875em ;color: #fff;}
+footer{
+	width:100%;
+	background: #333333;
+	padding-left: 20px;
+	padding-right: 20px;}
+ @media screen and (min-width: 1030px) {
+ body{padding-top:120px;}
+ header .head{width:1000px;margin:0 auto;}
+ header .head .logo,header .menu_appear,header .menu_appear li{float:left;}
+ header .head .logo{width:171px;margin-right: 96px;height: 80px;}
+ header .head .logo img{padding-top: 12px;}
+ header .head .menu_appear{width:733px;}
+ header .head .menu_appear ul li{
+ 	text-align: center;	
+	width:93px;
+	height:80px;
+	line-height: 80px;}
+header .head .menu_appear ul li:first-of-type{width:65px;}
+header .head .menu_appear ul li a{display:block;font-size:0.875em ;color: #fff;}
+ header .head .icon, header .head .word,.menu_hidden{display:none;}
+.menu_hidden{height: 0;overflow: hidden;}
+header .head .menu_appear ul li:hover{background: #5c5c5c;}
+ header .head .menu_appear ul li.active{background: #5c5c5c;}
+/*footer开始*/
+footer .foot{width:1000px;margin:0 auto;padding-top: 45px;padding-bottom: 56px;}
+footer .foot ul li{
+	width:244px;
+	float: left;	
+}
+footer .foot ul li span{}
+footer .foot ul li p{
+	line-height: 30px;
+	font-size: 0.75em;
+	color: #fff;	
+}
+footer .foot ul li:nth-of-type(4) p{text-align: left;}
+footer .foot ul li:nth-of-type(1) p:nth-of-type(2){padding-left: 60px;}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(1){padding-left: 6px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(2){padding-left: 60px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(3){padding-left: 60px;}
+/*footer结束*/
+ }
+@media screen and (min-width:720px) and (max-width:1030px){
+ body{padding-top: 11%;}
+ header .head{width:100%;margin:0 auto;}
+ header .head .logo,header .menu_appear,header .menu_appear li{float:left;}
+ header .head .logo{width:17.1%;margin-right:5.4%;height: 60px;margin-left:4%;}
+ header .head .logo img{width:125px;padding-top:10px ;height:40px;}
+ header .head .menu_appear{width:73.5%;}
+ header .head .menu_appear ul li{
+	width:12.6530%;
+	height:60px;
+	line-height: 60px;
+	}
+ header .head .menu_appear ul li:first-of-type{width:8.8435%;}
+ header .head .menu_appear ul li:hover{background: #5c5c5c;}
+	header .head .menu_appear ul li.active{background: #5c5c5c;}
+	header .head .menu_appear ul li a{display:block;}
+ header .head .icon, header .head .word, .menu_hidden{display:none;}
+ .menu_hidden{height: 0;overflow: hidden;}
+ /*footer开始*/
+footer{padding-left: 40px;padding-right: 40px;
+}
+footer .foot{width:100%;margin:0 auto;padding-top: 40px;padding-bottom: 40px;}
+footer .foot ul{padding-left: 20%;}
+footer .foot ul li{
+	width:42%;
+	float:left;	
+	margin-bottom: 5%;	
+}
+footer .foot ul li:nth-of-type(3),footer .foot ul li:nth-of-type(4){margin-bottom: 0%;	}
+footer .foot ul li p{
+	line-height: 30px;
+	font-size: 0.75em;
+	color: #fff;	
+	text-align: left;
+}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(1){margin-left: 4px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(1){margin-left:4px;}
+footer .foot ul li:nth-of-type(1) p:nth-of-type(2){margin-left: 61px;}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(2){margin-left: 12px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(2){margin-left: 59px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(3){margin-left: 59px;}
+footer .foot ul li:nth-of-type(4) p:nth-of-type(1),footer .foot ul li:nth-of-type(4) p:nth-of-type(2){margin-left: 4px;}
+/*footer结束*/
+}
+@media screen and (min-width:500px) and (max-width:720px){
+body{padding-top: 50px;}
+ header .head{width:100%;margin:0 auto;}
+ header .head .logo,header .menu_appear,header .menu_appear li{float:left;}
+	header .head .logo{width:16.1%;margin-right:5.4%;height:50px;margin-left:4%;}
+	header .head .logo img{width:126px;padding-top:3px ;height:43px;}
+ /*xx*/
+ header .menu_appear{display: none;}
+ header .head .icon, header .head .word, .menu_hidden{display:block;}
+ header .head .icon{width:5%;position: absolute;right:10%;top:17%;}
+	header .head .icon img{width:36px;}
+ header .head .word {position:absolute ;top:22%;left:42%;color: #fff;}
+ .menu_hidden{display: none;background: #4D4D4D;}
+ .menu_hidden ul{text-align: center; width: 100%;}
+.menu_hidden  li{	
+	width:10%;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+
+}
+.menu_hidden  li.active{background: #5c5c5c;  }
+.menu_hidden  li:active{background: #5c5c5c;}
+.menu_hidden  li.active a{  color: #fa9634;  }
+.menu_hidden  li:active a{color: #fa9634;  }
+ .menu_hidden ul li a{display:block;color: #fff;font-size: 0.75em;}
+.close{
+		width:50px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #ccc;
+		color: #000;
+		position: fixed;
+		left:45%;
+		top:27%;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+/*footer开始*/
+footer .foot{width:100%;margin:0 auto;padding-top: 40px;padding-bottom: 40px;}
+footer .foot ul{padding-left: 9%;}
+footer .foot ul li{
+	width:46%;
+	float:left;	
+	margin-bottom: 5%;	
+}
+footer .foot ul li:nth-of-type(3),footer .foot ul li:nth-of-type(4){margin-bottom: 0%;	}
+footer .foot ul li p{
+	line-height: 30px;
+	font-size: 0.75em;
+	color: #fff;	
+	text-align: left;
+}
+footer .foot ul li:last-of-type{
+	width:50%;
+}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(1){margin-left: 4px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(1){margin-left:4px;}
+footer .foot ul li:nth-of-type(1) p:nth-of-type(2){margin-left: 61px;}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(2){margin-left: 12px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(2){margin-left: 59px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(3){margin-left: 59px;}
+footer .foot ul li:nth-of-type(4) p:nth-of-type(1),footer .foot ul li:nth-of-type(4) p:nth-of-type(2){margin-left: 4px;}
+/*footer结束*/
+}
+@media screen and (max-width:500px){
+	body{padding-top: 40px;}
+	/*header开始*/
+ header .head{width:100%;margin:0 auto;}
+ header .head .logo,header .menu_appear li{float:left;}
+	header .head .logo{width:17.1%;margin-right:5.4%;height:40px;margin-left:4%;}
+	header .head .logo img{width:90px;padding-top:3px ;height:33px;}
+	header .menu_appear{display: none;}
+ header .menu_appear{display: none;}
+ header .head .icon, header .head .word, .menu_hidden{display:block;}
+ header .head .icon{width:5.5%;position: absolute;right:10%;top:15%;}
+	header .head .icon img{width:28px;}
+ header .head .word {position:absolute ;top:10%;left:42%;color: #fff;font-size:1em;}
+.menu_hidden{display: none;background: #4D4D4D;}
+.menu_hidden ul{text-align: center;}
+.menu_hidden li{	
+	width:20%;
+	display: inline-block;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+}
+	.menu_hidden ul li.active{background: #5c5c5c;}
+.menu_hidden ul li a{display:block;color: #fff;font-size: 0.75em;}
+.close{
+		width:50px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #ccc;
+		color: #000;
+		position: fixed;
+		left:45%;
+		top:27%;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+/*header结束*/
+/*footer开始*/
+footer .foot{width:100%;margin:0 auto;padding-top: 45px;padding-bottom: 60px;}
+footer .foot ul{text-align: center;}
+footer .foot ul li{
+	padding-bottom: 2%;
+	clear: both;
+	}
+footer .foot ul li p{
+	line-height: 30px;
+	font-size: 0.75em;
+	color: #fff;		
+}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(1){margin-left: 9px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(1){margin-left:-6px;}
+footer .foot ul li:nth-of-type(1) p:nth-of-type(2){margin-left: 61px;}
+footer .foot ul li:nth-of-type(2) p:nth-of-type(2){margin-left: 3px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(2){margin-left: 52px;}
+footer .foot ul li:nth-of-type(3) p:nth-of-type(3){margin-left: 52px;}
+footer .foot ul li:nth-of-type(4) p:nth-of-type(1){margin-left: 43px;}
+footer .foot ul li:nth-of-type(4) p:nth-of-type(2){margin-left: 37px;}
+footer .foot ul li:nth-of-type(4) p:nth-of-type(3){margin-left: 56px;}
+/*footer结束*/
+}

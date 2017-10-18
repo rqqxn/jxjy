@@ -1,0 +1,109 @@
+
+@media screen and (min-width:1030px ) {
+/*container开始*/
+.container .main{width:1000px;margin:0 auto;}
+/*aside开始*/
+.container .main aside{width:266px;float: left;}
+.container .main aside ul{padding-right: 15px;border-right:1px solid #bbb;}
+.container .main aside ul li{
+	clear: both;
+	height:78px;
+	line-height: 78px;
+	text-align: left;
+}
+.container .main aside ul li:first-of-type{background: url(../img/xygk_02.jpg) no-repeat 23px 16px;}
+.container .main aside ul li:last-of-type{background: url(../img/xygk_06.jpg) no-repeat 23px 16px;}
+.container .main aside ul li a{font-size:1.375em ;color: #222222;display:block;	padding-left: 90px;}
+.container .main aside ul li:hover{
+	height:75px;
+	border-bottom: 3px solid #fa9634;
+}
+.container .main aside ul li:first-of-type:hover{
+	background: url(../img/xygk_m.jpg) no-repeat 23px 16px;
+    }
+.container .main aside ul li:last-of-type:hover{background: url(../img/xygk_07.jpg) no-repeat 23px 16px;}
+.container .main aside ul li.active{
+	background: url(../img/xygk_07.jpg) no-repeat 23px 16px;
+    height:75px;
+    border-bottom: 3px solid #fa9634;
+}
+/*aside结束*/
+/*section开始*/
+.container .main section.feature{width:670px;float: right;padding-bottom: 99px;}
+.container .main section.feature h3:first-of-type{height: 28px;line-height: 28px;margin-bottom: 8px;}
+.container .main section.feature h3{height:42px;line-height: 42px;font-size: 1.125em;color: #fa9634;}
+.container .main section.feature  p{line-height: 28px;font-size: 1em;color: #222222;}
+
+/*section结束*/
+/*container结束*/}
+@media screen and (min-width:720px ) and (max-width:1030px) {
+.container .main{width:100%;}
+.container .main aside{width:26.6%;float: left;}
+.container .main aside ul{padding-right: 15%;border-right:1px solid #bbb;}
+.container .main aside ul li{
+	clear: both;
+	height:60px;
+	line-height: 60px;
+	text-align: left;
+}
+.container .main aside ul li.active{
+	background: url(../img/xygk_07.jpg) no-repeat 8% 40%;
+	background-size:20%; 
+    border-bottom: 3px solid #fa9634;
+    }
+.container .main aside ul li:first-of-type{background: url(../img/xygk_02.jpg) no-repeat 8% 40%;background-size:18%;}
+.container .main aside ul li a{font-size:1.125em ;color: #222222;display:block;	padding-left: 40%;}
+/*aside结束*/
+/*section开始*/
+.container .main section.feature{width:69%;float: right;padding-bottom: 40px;}
+.container .main section.feature h3:first-of-type{height: 28px;line-height: 28px;margin-bottom: 8px;}
+.container .main section.feature h3{height:42px;line-height: 42px;font-size: 1.125em;color: #fa9634;}
+.container .main section.feature  p{line-height: 24px;font-size: 1em;color: #222222;}
+}
+@media screen and (max-width:719px ) and (min-width:550px){
+	/*aside开始*/
+	.container .main aside{}
+	.container .main aside ul{padding:2% 5% 5% 5%;text-align: center;}
+	.container .main aside ul li{
+		width: 25%;
+		display: inline-block;
+		height:48px;
+		line-height: 48px;
+	}
+	.container .main aside ul li.active{background: url(../img/xygk_07.jpg) no-repeat 13% 40%;background-size:34px; margin-left: 2%;
+		border-bottom: 3px solid #fa9634;}
+	.container .main aside ul li:first-of-type{background: url(../img/xygk_02.jpg) no-repeat 13% 40%;background-size:34px;}
+	.container .main aside ul li a{font-size:1em ;color: #222222;display:block;padding-left:35%;}
+	/*aside结束*/
+	/*section开始*/
+	.container .main section.feature{padding-bottom: 60px;}
+	.container .main section.feature h3:first-of-type{height: 28px;line-height: 28px;margin-bottom: 8px;}
+	.container .main section.feature h3{height:42px;line-height: 42px;font-size: 1em;color: #fa9634;font-weight:normal;font-family: "微软雅黑";}
+	.container .main section.feature  p{line-height: 24px;font-size:1em;color: #222222;text-indent: 28px;}
+	.container .main section.feature  p:nth-of-type(3),.container .main section.feature  p:nth-of-type(6),.container .main section.feature  p:nth-of-type(9),.container .main section.feature  p:nth-of-type(12),.container .main section.feature  p:last-of-type{padding-bottom: 10px;}
+}
+@media screen and (max-width:550px ){
+	/*aside开始*/
+	.container .main aside{}
+	.container .main aside ul{padding:2% 5% 5% 5%;text-align: center;}
+	.container .main aside ul li{
+		width: 25%;
+		display: inline-block;
+		height:35px;
+		line-height: 35px;
+		padding-top:30px;
+		text-align: center;
+	}
+	.container .main aside ul li.active{background: url(../img/xygk_07.jpg) no-repeat top center;background-size:35px; margin-left: 2%;
+		border-bottom: 3px solid #fa9634;}
+	.container .main aside ul li:first-of-type{background: url(../img/xygk_02.jpg) no-repeat top center;background-size:35px;}
+	.container .main aside ul li a{font-size:1em ;color: #222222;display:block;}
+	/*aside结束*/
+	/*section开始*/
+	.container .main section.feature{padding-bottom: 60px;}
+	.container .main section.feature h3:first-of-type{height: 28px;line-height: 28px;margin-bottom: 8px;}
+	.container .main section.feature h3{height:42px;line-height: 42px;font-size: 1em;color: #fa9634;font-weight:normal;font-family: "微软雅黑";}
+	.container .main section.feature  p{line-height: 24px;font-size: 1em;color: #222222;text-indent: 28px;}
+	.container .main section.feature  p:nth-of-type(3),.container .main section.feature  p:nth-of-type(6),.container .main section.feature  p:nth-of-type(9),.container .main section.feature  p:nth-of-type(12),.container .main section.feature  p:last-of-type{padding-bottom: 10px;}
+}
+

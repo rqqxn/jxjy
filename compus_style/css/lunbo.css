@@ -1,0 +1,68 @@
+@media screen and (min-width: 1030px){
+    .main section{width:659px;float: left;}
+    .banner.two{display: none;}
+    .main section .word {padding-bottom:40px;  padding-top:33px; }
+    .main section .word p{line-height: 30px;font-size: 16px;text-indent: 32px;}
+    }
+@media screen and (min-width: 719px) and (max-width:1030px){
+    .main section{width:65.98058%;float: left;padding-left:5%;}
+    .main section .word {padding-bottom:40px;  padding-top:33px; }
+    .main section .word p{line-height: 30px;font-size: 16px;text-indent: 32px;}
+    .banner.two{display: none;}
+}
+@media screen and (max-width: 718px) and (min-width:480px){
+    .banner.one{display: none;}
+    .main section {clear:both;}
+    .main section{padding-top:15px;padding-left: 3%;padding-right: 3%;}
+    .main section .word {padding-bottom:40px;  padding-top:33px; }
+    .main section .word p{line-height: 30px;font-size: 16px;text-indent: 32px;}
+    /*ÂÖ²¥*/
+    .bx-pager{background:none!important;}
+    .bx-pager-item  {width:50px!important;}
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        background: #ccc!important;
+        opacity: 0.5!important;
+        text-indent: -9999px!important;
+        display: block!important;
+        width: 40px !important;
+        height: 8px!important;
+        margin: 0 5px!important;
+        outline: 0!important;
+        padding:0 !important;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a:before{display:none!important;}
+    .bx-wrapper .bx-pager.bx-default-pager a:after{display:none!important;}
+    .bx-wrapper .bx-pager.bx-default-pager a:hover,
+    .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background:#ffab5a !important;
+        border: 0 !important;
+    }
+}
+@media screen and (max-width: 480px){
+    .main section {clear:both;}
+    .main section{padding-top:15px;padding-left: 3%;padding-right: 3%;}
+    /*ÂÖ²¥*/
+    .bx-pager{background:none!important;}
+    .bx-pager-item  {width:50px!important;}
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        background: #ccc!important;
+        opacity: 0.5!important;
+        text-indent: -9999px!important;
+        display: block!important;
+        width: 40px !important;
+        height: 8px!important;
+        margin: 0 5px!important;
+        outline: 0!important;
+        padding:0 !important;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a:before{display:none!important;}
+    .bx-wrapper .bx-pager.bx-default-pager a:after{display:none!important;}
+    .bx-wrapper .bx-pager.bx-default-pager a:hover,
+    .bx-wrapper .bx-pager.bx-default-pager a.active{
+        background:#ffab5a !important;
+        border: 0 !important;
+    }
+    .banner.one{display: none;}
+    .main section .word {padding-bottom:40px;  }
+    .main section .word p{line-height: 30px;font-size: 16px;text-indent: 32px;}
+}

@@ -1,0 +1,74 @@
+@media screen and (min-width: 1030px){
+    .main aside ul li.active{background: url(../img/service_04.jpg) no-repeat 20px 21px !important;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat 20px 13px;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat 20px 21px;}
+    .main aside ul li:nth-of-type(4){background: url(../img/service_10.jpg) no-repeat 20px 21px;}
+    .main aside ul li:hover:nth-of-type(2){background: url(../img/service_06.jpg) no-repeat 20px 13px;}
+    .main aside ul li:hover:nth-of-type(3){background: url(../img/service_09.jpg) no-repeat 20px 21px;}
+    .main aside ul li:hover:nth-of-type(4){background: url(../img/service_11.jpg) no-repeat 20px 21px;}
+    .main section p:nth-of-type(1){margin-top:7px;}
+    .main section p:nth-of-type(2){text-indent: 0;margin-top:13px;font-size: 0.875em;}
+    .main section p{line-height: 35px; color: #222;}
+    .main section p:last-of-type{text-indent: 0;margin-top:7px;}
+    .main section p:nth-of-type(3),.main section p:nth-of-type(4){text-indent: 0px;}
+    .main section h2:nth-of-type(2), .main section h2:nth-of-type(3){margin-top:18px;}
+    .main section h2{margin-top:25px;}
+    .main section h2 span{display: inline-block;
+        font-size: 16px;
+        color: #222;
+        font-weight: normal;}
+}
+@media screen and (min-width: 719px) and (max-width:1030px){
+    .main aside ul li.active{background: url(../img/service_04.jpg) no-repeat left center !important;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat left center!important;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat left center!important;}
+    .main aside ul li:nth-of-type(4){background: url(../img/service_10.jpg) no-repeat left center!important;}
+    .main section p:nth-of-type(1){margin-top:7px;}
+    .main section p:nth-of-type(2){text-indent: 24px;margin-top:13px;font-size: 0.875em;}
+    .main section p:nth-of-type(3),.main section p:nth-of-type(4){text-indent: 24px;}
+    .main section p{line-height: 35px; color: #222;}
+    .main section p:last-of-type{text-indent: 0;margin-top:7px;}
+    .main section h2{margin-top:10px;}
+    .main section h2 span{
+        line-height: 35px;
+        font-size: 16px;
+        color: #222;
+        font-weight: normal;}
+}
+@media screen and (min-width: 540px) and (max-width:719px){
+    .main aside ul li.active{background: url(../img/service_04.jpg) no-repeat center 20px;background-size: 45px;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat center 10px;background-size: 45px;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat center 20px;background-size: 45px;}
+    .main aside ul li:nth-of-type(4){background: url(../img/service_10.jpg) no-repeat center 20px;background-size: 45px;}
+    .main section p:nth-of-type(1){margin-top:7px;}
+    .main section p:nth-of-type(2){text-indent: 24px;margin-top:13px;font-size: 0.875em;}
+    .main section p:nth-of-type(3),.main section p:nth-of-type(4){text-indent: 24px;}
+    .main section p{line-height: 35px; color: #222;}
+    .main section p:last-of-type{text-indent: 0;margin-top:7px;}
+    .main section h2{margin-top:10px;}
+    .main section h2 span{
+        line-height: 35px;
+        font-size: 16px;
+        color: #222;
+        font-weight: normal;}
+}
+@media screen and (max-width:540px){
+    .main aside ul li{width:23%!important;}
+    .main aside ul li.active{background: url(../img/service_04.jpg) no-repeat center 14px;background-size:40px;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat center 8px;background-size: 40px;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat center 14px;background-size: 40px;}
+    .main aside ul li:nth-of-type(4){background: url(../img/service_10.jpg) no-repeat center 14px;background-size: 40px;}
+    .main section p:nth-of-type(1){margin-top:7px;}
+    .main section p:nth-of-type(2){text-indent: 24px;margin-top:13px;font-size: 0.875em;}
+    .main section p:nth-of-type(3),.main section p:nth-of-type(4){text-indent: 24px;}
+
+    .main section p{line-height: 25px; color: #222;}
+    .main section p:last-of-type{text-indent: 0;margin-top:7px;}
+    .main section h2:nth-of-type(2){margin-top:7px;}
+    .main section h2{margin-top:0px;}
+    .main section h2 span{
+        line-height: 35px;
+        font-size: 16px;
+        color: #222;
+        font-weight: normal;}
+}

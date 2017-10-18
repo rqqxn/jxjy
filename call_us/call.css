@@ -1,0 +1,63 @@
+@media screen and (min-width: 1030px){
+    body{padding-top:100px!important;}
+   .content{width:1030px;margin:0 auto;
+       padding-bottom: 60px;}
+    h2,p{text-align: center;}
+    h2{font-size: 1.125em;
+        line-height: 50px;
+        font-weight: bold;
+        color: #fa9634;}
+    p span{    font-size: 1.375em;
+       font-weight: bold;
+       display: inline-block;padding-left:40px;}
+    p:last-of-type {padding-left: 10px;line-height: 36px;font-size: 1em;font-weight: normal;padding-bottom:30px;}
+    .img{text-align: center;}
+    .img .right #container2{width:70%;height:400px;margin: 0 auto;}
+}
+@media screen and (min-width: 719px) and (max-width:1030px){
+    body{padding-top:95px;}
+    .content{margin:0 auto;
+        padding-bottom: 60px;}
+    h2,p{text-align: center;}
+    h2{font-size: 1.125em;
+        line-height: 50px;
+        font-weight: bold;
+        color: #fa9634;}
+    p span{    font-size: 1.375em;
+        font-weight: bold;
+        display: inline-block;padding-left:40px;}
+    p:last-of-type {padding-left: 10px;line-height: 36px;font-size: 1em;font-weight: normal;padding-bottom:30px;}
+    .img{text-align: center;}
+    .img .right #container2{width:80%;height:300px;margin: 0 auto;}
+}
+@media screen and (max-width: 718px) and (min-width:480px){
+    .content{margin:0 auto;
+        padding-bottom: 60px;}
+    h2,p{text-align: center;}
+    h2{font-size: 1.125em;
+        line-height: 50px;
+        font-weight: bold;
+        color: #fa9634;}
+    p span{    font-size: 1.375em;
+        font-weight: bold;
+        display: inline-block;padding-left:40px;}
+    p:last-of-type {padding-left: 10px;line-height: 36px;font-size: 1em;font-weight: normal;padding-bottom:30px;}
+    .img{text-align: center;}
+    .img .right #container2{width:90%;height:300px;margin: 0 auto;}
+}
+@media screen and (max-width: 480px){
+    .content{margin:0 auto;
+        padding-bottom: 60px;}
+    h2,p{text-align: center;}
+    h2{font-size: 1.125em;
+        line-height: 50px;
+        font-weight: bold;
+        color: #fa9634;}
+    p span{    font-size: 1.375em;
+        font-weight: bold;
+        display: inline-block;padding-left:40px;}
+    p:last-of-type {padding-left: 10px;line-height: 36px;font-size: 1em;font-weight: normal;padding-bottom:30px;}
+    .img{text-align: center;}
+    .img .right #container2{width:90%;height:300px;margin: 0 auto;}
+
+}

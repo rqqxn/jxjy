@@ -1,0 +1,56 @@
+@media screen and (min-width: 1030px){
+    .main aside ul li.active{background: url(../img/service_11.jpg) no-repeat 20px 21px !important;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat 20px 13px;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat 20px 21px;}
+    .main aside ul li:nth-of-type(1){background: url(../img/service_03.jpg) no-repeat 20px 21px;}
+    .main aside ul li:hover:nth-of-type(2){background: url(../img/service_06.jpg) no-repeat 20px 13px;}
+    .main aside ul li:hover:nth-of-type(3){background: url(../img/service_09.jpg) no-repeat 20px 21px;}
+    .main aside ul li:hover:nth-of-type(1){background: url(../img/service_04.jpg) no-repeat 20px 21px;}
+    .main section p{line-height: 30px; color: #222;text-indent: 0!important;font-size: 1em;}
+    .main section h2{font-size: 1.625em;
+        height:50px;
+        line-height: 50px!important;
+        font-weight: bold;
+        color: #fa9634;}
+    .main section {padding-bottom:100px!important;}
+}
+@media screen and (min-width: 719px) and (max-width:1030px){
+    .main aside ul li.active{background: url(../img/service_11.jpg) no-repeat left center !important;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat left center!important;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat left center!important;}
+    .main aside ul li:nth-of-type(1){background: url(../img/service_03.jpg) no-repeat left center!important;}
+    .main section p{line-height: 30px; color: #222;font-size: 1em;}
+    .main section h2{font-size: 1.625em;
+        height:50px;
+        line-height: 50px!important;
+        font-weight: bold;
+        color: #fa9634;}
+    .main section {padding-bottom:40px!important;}
+}
+@media screen and (min-width: 540px) and (max-width:719px){
+    .main aside ul li.active{background: url(../img/service_11.jpg) no-repeat center 20px;background-size: 45px;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat center 10px;background-size: 45px;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat center 20px;background-size: 45px;}
+    .main aside ul li:nth-of-type(1){background: url(../img/service_03.jpg) no-repeat center 20px;background-size: 45px;}
+    .main section p{line-height: 30px; color: #222;font-size: 1em;}
+    .main section h2{font-size: 1.625em;
+        height:50px;
+        line-height: 50px!important;
+        font-weight: bold;
+        color: #fa9634;}
+    .main section {padding-bottom:80px!important;}
+}
+@media screen and (max-width:540px){
+    .main aside ul li{width:23%!important;}
+    .main aside ul li.active{background: url(../img/service_11.jpg) no-repeat center 14px;background-size:40px;border-bottom: 3px solid  #fa9634;}
+    .main aside ul li:nth-of-type(2){background: url(../img/service_05.jpg) no-repeat center 8px;background-size: 40px;}
+    .main aside ul li:nth-of-type(3){background: url(../img/service_08.jpg) no-repeat center 14px;background-size: 40px;}
+    .main aside ul li:nth-of-type(1){background: url(../img/service_03.jpg) no-repeat center 14px;background-size: 40px;}
+    .main section p{line-height: 30px; color: #222;font-size: 1em;}
+    .main section h2{font-size: 1.625em;
+        height:50px;
+        line-height: 50px!important;
+        font-weight: bold;
+        color: #fa9634;}
+    .main section {padding-bottom:80px!important;}
+}
